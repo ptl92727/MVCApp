@@ -1,1 +1,3 @@
-This is a MVC Project that i started at College
+This is a MVC Project for tracking Staff skills and training.
+
+Project ends in April
