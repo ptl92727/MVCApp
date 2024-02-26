@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace TMS.Controllers
+namespace webApp_mvc
 {
     public class PermissionController : Controller
     {
