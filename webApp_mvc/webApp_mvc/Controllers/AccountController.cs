@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
-namespace webApp_mvc
+namespace webApp_mvc.Controllers
 {
      public class AccountController : Controller
      {
