@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace webApp_mvc
+namespace webApp_mvc.Controllers
 {
     public class PermissionController : Controller
     {
