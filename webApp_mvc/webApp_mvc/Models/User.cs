@@ -2,19 +2,18 @@
 
 namespace webApp_mvc.Models
 {
-    public class User
+    public class UserLoginModel
     {
 
-        [Key]
-        public int UserID { get; set; }
-        [Required]
-        public string UserName { get; set; } = string.Empty;
-        public string Password { get; set; } = string.Empty;
+
+        [Required(ErrorMessage = "Email Is Required")]
+        [EmailAddress]
         public string Email { get; set; }
-        public string Phone { get; set; }
-        public string Mobile { get; set; } = string.Empty;
-        public DateTime CreateDate { get; set; } = DateTime.Now;
-        public DateTime DOB { get; set; }
-        public bool IsActive { get; set; }
+
+
+
+        [Required(ErrorMessage = "Password Is Required")]
+        [DataType(DataType.Password)]
+        public string Password { get; set; }
     }
 }
